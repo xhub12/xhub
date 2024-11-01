@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XHUB</title>
+    <link rel="icon" href="font.png" type="image/png"> <!-- Icono de la pestaña -->
+    <style>
+        body {
+            background-color: #000;
+            color: #ff0000;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            position: relative;
+        }
+        .video-card {
+            background-color: #222;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+            display: inline-block;
+            width: 300px;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+        .video-card:hover {
+            transform: scale(1.05);
+        }
+        .thumbnail {
+            width: 100%;
+            border-radius: 5px;
+        }
+        h2 {
+            font-size: 1em;
+            margin: 10px 0;
+        }
+        h1 {
+            cursor: pointer;
+            margin: 20px;
+            transition: color 0.3s;
+        }
+        h1:hover {
+            color: #ff6666;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        #searchInput {
+            padding: 10px;
+            width: calc(100% - 22px);
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="font.png" alt="Título de la Página">
+
+    <input type="text" id="searchInput" placeholder="Buscar por nombre..." onkeyup="filterVideos()">
+
+    <div id="videos" class="video-list">
+        <div id="video1" class="video-card">
+            <img src="vero.png" class="thumbnail" alt="Vero Buffone" onclick="window.open('https://es.pornhub.com/view_video.php?viewkey=651ffcf53d20c', '_blank');">
+            <h2>Vero Buffone te indica como llenarle el culo de leche. INSTRUCTIVO ANAL</h2>
+        </div>
+
+        <div id="video2" class="video-card">
+            <img src="martinpaola.png" class="thumbnail" alt="Martin Paola" onclick="window.open('https://es.pornhub.com/view_video.php?viewkey=ph6234bb6b1c3d1', '_blank');">
+            <h2>¡su Culo Está Muy Aceitado! ¡POV! MartinPaola! ¡MILF!</h2>
+        </div>
+
+        <div id="video3" class="video-card">
+            <img src="kelsi.png" class="thumbnail" alt="Kelsi Monroe" onclick="window.open('https://www.xvideos.com/video.hkudtvve605/big_ass_kelsi_monroe_comienza_a_balancearse', '_blank');">
+            <h2>Big Ass Kelsi Monroe starts swinging</h2>
+        </div>
+
+        <div id="video4" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="tranny.png" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://www.travekos.com/shemale-cuzuda-sendo-fodida-e-gozada-no-rabo/', '_blank');">
+            <h2>shemale cuzada sendo fodida e gozada no rabo</h2>
+        </div>
+
+        <div id="video5" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="s.png" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://es.pornhub.com/view_video.php?viewkey=671c41dc4aada', '_blank');">
+            <h2>GATITAVEVE e Iran Lux graban una porno delante de miles de personas EN VIVO | Pin Up</h2>
+        </div>
+
+        <div id="video6" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="ds.png" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://es.pornhub.com/view_video.php?viewkey=ph63502b8c51365', '_blank');">
+            <h2>JAZLYNS PRIMER DISPARO ANAL CON EL TUYO VERDADERAMENTE</h2>
+        </div>
+
+        <div id="video7" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="re.png" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://es.pornhub.com/view_video.php?viewkey=ph6057153e6534e', '_blank');">
+            <h2>Real Cheating chica con gran culo recibe creampie después del masaje con aceite / Pareja amateur de sexo inesperado</h2>
+        </div>
+        
+        <div id="video8" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="tg.png" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://www.pussyspace.com/vid-4385518-true-anal-nicole-doshi-does-it-up-the-ass/', '_blank');">
+            <h2>TRUE ANAL Nicole Doshi Does it up the Ass</h2>
+        </div>
+        
+        <div id="video9" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="fd.jpeg" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://xvideos-net.com/ru/vadia-rabuda-no-anal-gostoso-sentando-na-piroca/', '_blank');">
+            <h2>Puta de cola grande en anal caliente sentada sobre una polla</h2>
+        </div>
+        
+        <div id="video10" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="ta.png" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://www.xnxx.com/video-12u8kzda/morena_amante_del_anal_tiene_su_culo_apretado_penetrado_por_una_gran_polla', '_blank');">
+            <h2>Anal loving brunette has her tight bootyhole penetrated by a big cock</h2>
+        </div>
+        
+        <div id="video11" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="zxs.png" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://es.pornhub.com/view_video.php?viewkey=65b4443baf0fb', '_blank');">
+            <h2>¿Podrías resistirte al culo aceitado de tu hijastra si te pide que te la folles? - Tara Rico</h2>
+        </div>
+        
+        <div id="video12" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="ls.png" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://es.pornhub.com/view_video.php?viewkey=66f3723c5ca9b', '_blank');">
+            <h2>Puta squirt casada recibe creampie masivo de gran polla hermanastro - PENE POV!!</h2>
+        </div>
+        
+        <div id="video13" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="trs.jpeg" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://www.tnaflix.com/amateur-porn/OFLTS/video5344181?utm_source=TubeCJ&utm_medium=General&utm_campaign=TubeCJ+General+Campaign&autoPlay=1', '_blank');">
+            <h2>OFLTS</h2>
+        </div>
+		
+        <div id="video13" class="video-card"> <!-- Nuevo video en la categoría vaginal -->
+            <img src="sdw.png" class="thumbnail" alt="Nuevo Video" onclick="window.open('https://www.tnaflix.com/amateur-porn/OFLTS/video5344181?utm_source=TubeCJ&utm_medium=General&utm_campaign=TubeCJ+General+Campaign&autoPlay=1', '_blank');">
+            <h2>milf culona recibe un golpe duro en el coñ</h2>
+        </div>
+    </div>
+
+    <script>
+        function filterVideos() {
+            let input = document.getElementById('searchInput');
+            let filter = input.value.toLowerCase();
+            let videoCards = document.querySelectorAll('.video-card');
+
+            videoCards.forEach(video => {
+                let title = video.getElementsByTagName('h2')[0].innerText;
+                if (title.toLowerCase().includes(filter)) {
+                    video.style.display = 'inline-block'; // Mostrar video que coincide con la búsqueda
+                } else {
+                    video.style.display = 'none'; // Ocultar video que no coincide
+                }
+            });
+        }
+
+    </script>
+</body>
+</html>

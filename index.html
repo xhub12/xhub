@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XHUB</title>
+    <link rel="icon" href="font.png" type="image/png"> <!-- Icono de la pestaña -->
+    <style>
+        body {
+            background-color: black; /* Fondo negro */
+            color: white;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .message {
+            background-color: black; /* Fondo del mensaje negro */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        button {
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .enter {
+            background-color: green;
+            color: white;
+        }
+        .exit {
+            background-color: darkred;
+            color: white;
+        }
+        img {
+            max-width: 100%; /* Ajusta el tamaño de la imagen */
+            height: auto;
+            margin-bottom: 20px; /* Espacio entre la imagen y el texto */
+        }
+    </style>
+</head>
+<body>
+    <div class="message">
+        <img src="font.png" alt="Logo de la página">
+        <h1>Este es un Sitio Web para adultos</h1>
+        <p>Este sitio web contiene material restringido a menores de edad, que incluye desnudez y representaciones explícitas de actividad sexual. Al entrar, afirma que tiene por lo menos 18 años de edad o la mayoría de edad en la jurisdicción desde que está accediendo el sitio web y que da consentimiento en ver contenido sexualmente explícito.</p>
+        <button class="enter" onclick="window.location.href='XHub.html'">Tengo 18 años o más - Entrar</button>
+        <button class="exit" onclick="window.location.href='https://www.google.com/'">Soy menor de 18 años - Salir</button>
+    </div>
+</body>
+</html>
